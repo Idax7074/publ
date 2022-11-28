@@ -1,0 +1,7 @@
+@media (min-width: 700px) {
+  section.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+  }
+}

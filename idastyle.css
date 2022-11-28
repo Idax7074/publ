@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: houschka-rounded, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: rgb(220, 220, 220);
+  background-color: rgb(11, 35, 97);
+}
+
+main {
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 10px;
+}
+/*Poster billede med tekst*/
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(220, 220, 220);
+}
+
+.center {
+  position: absolute;
+  font-size: 3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
